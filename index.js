@@ -3,6 +3,11 @@ require('dotenv/config');
 const {Client, IntentsBitField} = require('discord.js');
 const {Configuration, OpenAIApi} = require('openai');
 
+TOKEN = MTEwMTE4NzU1MzAwNjIwNzExNw.Ghr_IN.DdFlg-86JKTIqyl3Pk_T-VYHPE6AJ5GVjqFYTA
+OPENAI_API_KEY = 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
+CHAT_BOT_CHANNEL = 1101139161840369745
+OPENAI_ORGANIZATION = org-HIj7w4XnEpRROtJ9nePuLGiL
+
 const client = new Client({
     intents: [
         IntentsBitField.Flags.Guilds,
